@@ -1,0 +1,35 @@
+# Datos descargados (reproducibles con src/data.py)
+data/raw/
+data/processed/
+
+# Pesos del modelo (reproducibles entrenando)
+models/
+
+# Resultados generados (reproducibles con src/evaluate.py)
+results/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.eggs/
+*.egg-info/
+dist/
+build/
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
